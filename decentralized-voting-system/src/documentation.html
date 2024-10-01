@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentralized Voting Dapp Documentation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app-container2">
+        <h1>Decentralized Voting Dapp Documentation</h1>
+
+        <section>
+            <h2>Overview</h2>
+            <p>The Decentralized Voting Dapp allows users to vote on predefined proposals using the Ethereum blockchain.
+                This application ensures transparency, security, and immutability of the voting process, with votes
+                stored on a public blockchain.</p>
+        </section>
+
+        <section>
+            <h2>How to Use the Dapp</h2>
+            <ol>
+                <li><strong>Install MetaMask:</strong> Ensure you have the MetaMask browser extension installed and
+                    connected to an Ethereum network (Ganache for local development).</li>
+                <li><strong>Connect Wallet:</strong> Click the "Connect Wallet" button on the homepage. This will link
+                    your MetaMask account to the Dapp.</li>
+                <li><strong>Vote:</strong> Once connected, the available proposals will be displayed. Click on a
+                    proposal to vote.</li>
+                <li><strong>View Results:</strong> The results will update in real-time, showing the number of votes
+                    each proposal has received.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li><strong>Secure Voting:</strong> All votes are stored immutably on the Ethereum blockchain, ensuring
+                    transparency and security.</li>
+                <li><strong>Real-Time Results:</strong> Votes are tallied and updated in real-time, giving users instant
+                    feedback on the voting process.</li>
+                <li><strong>MetaMask Integration:</strong> The Dapp integrates with MetaMask, allowing users to securely
+                    connect and vote using their blockchain account.</li>
+                <li><strong>Smart Contract Auditing:</strong> The Solidity smart contracts have been audited using
+                    Slither to ensure security and prevent vulnerabilities.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Technical Specifications</h2>
+            <ul>
+                <li><strong>Blockchain:</strong> Ethereum (Tested locally with Ganache)</li>
+                <li><strong>Smart Contract Language:</strong> Solidity (version 0.8.x)</li>
+                <li><strong>Front-End Technologies:</strong> HTML, CSS, JavaScript (Web3.js for blockchain interaction)
+                </li>
+                <li><strong>Wallet Integration:</strong> MetaMask for wallet connection and transaction signing</li>
+                <li><strong>Security Audit:</strong> Smart contracts are audited using Slither for common
+                    vulnerabilities.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Smart Contract Details</h2>
+            <p>The smart contracts used in this Dapp handle the following:</p>
+            <ul>
+                <li><strong>Proposal Management:</strong> Each proposal is stored on the blockchain with a name and vote
+                    count.</li>
+                <li><strong>Voting Mechanism:</strong> Users can cast a vote on a proposal, and the contract ensures
+                    that no double voting occurs.</li>
+                <li><strong>Results:</strong> The contract provides real-time access to the voting results.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Get Started</h2>
+            <p>To get started with the Dapp, visit the <a href="index.html">Voting Page</a> and follow the instructions
+                to connect your wallet and vote!</p>
+        </section>
+
+    </div>
+</body>
+
+</html>

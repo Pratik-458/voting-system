@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1A3636;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: #0B192C;
+    text-align: center;
+  }
+
+  title {
+    color: #0B192C;
+    text-align: center;
+  }
+  
+  #app-container {
+    background-color: #FFF5CD;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  #app-container2 {
+    background-color: #FFF5CD;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 1000px;
+    text-align: left;
+  }
+
+  #voting-section {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #433878;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #A0D683;
+  }
+  
+  #proposals button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  #connect-wallet {
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    #app-container {
+      width: 95%;
+    }
+  }

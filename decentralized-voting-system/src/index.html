@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentralized Voting Dapp</title>
+
+    <!-- Google Font for typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Web3.js Library for blockchain interactions -->
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.min.js"></script>
+</head>
+
+<body>
+    <div id="app-container">
+        <h1>Decentralized Voting Dapp</h1>
+        <button id="connect-wallet">Connect Wallet</button>
+        <a href="documentation.html" style="margin-top: 20px; display: inline-block; color: #3498db;"> <button>View
+                Documentation</button></a>
+
+        <div id="voting-section" style="display:none;">
+            <h2>Vote on Proposals</h2>
+            <div id="proposals"></div>
+
+            <!-- Table to display vote counts -->
+            <h2>Vote Count Overview</h2>
+            <table id="voteTable" border="1" cellspacing="0" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Proposal</th>
+                        <th>Vote Count</th>
+                    </tr>
+                </thead>
+                <tbody id="voteTableBody">
+                    <!-- Rows will be dynamically added here -->
+                </tbody>
+            </table>
+
+            <!-- Form for submitting a new proposal -->
+            <h2>Propose a New Idea</h2>
+            <form id="proposal-form">
+                <input type="text" id="proposal-input" placeholder="Enter your proposal" required>
+                <button type="submit">Submit Proposal</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Link to external JS file -->
+    <script src="app.js"></script>
+</body>
+
+</html>
